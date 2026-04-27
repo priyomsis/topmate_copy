@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* ── Custom theme tokens (Tailwind v4 CSS-based config) ── */
+@theme {
+  --color-primary: #ef4444;
+  --color-secondary: #1F2937;
+  --color-dark: #0a0a0a;
+  --color-dark-card: #111111;
+}
+
+/* ── Base resets ── */
+html,
+body {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Hide scrollbar (demo only) ── */
+::-webkit-scrollbar {
+  display: none;
+}
+
